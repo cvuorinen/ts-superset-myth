@@ -1,15 +1,17 @@
-const first = {};
+type myType = { name?: string, organization?: string, message?: string };
+
+const first: myType = {};
 
 first.name = 'Tyler Durden';
 
 //
 const prop = 'organization';
-const second = {
+const second: myType = {
     name: 'Tyler Durden',
     [prop]: 'Fight Club'
 };
 
-const third = {
+const third: myType = {
     name: 'Tyler Durden',
     organization: 'Fight Club'
 };
