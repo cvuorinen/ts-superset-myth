@@ -4,7 +4,9 @@
     "target": "es5",
     "sourceMap": true,
     "allowJs": true,
-    "outDir": "build"
+    "outDir": "build",
+    "types": ["lodash"],
+    "allowSyntheticDefaultImports": true
   },
   "exclude": [
     "node_modules"
