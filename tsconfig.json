@@ -5,8 +5,7 @@
     "sourceMap": true,
     "allowJs": true,
     "outDir": "build",
-    "types": ["lodash"],
-    "allowSyntheticDefaultImports": true
+    "types": ["lodash"]
   },
   "exclude": [
     "node_modules"
